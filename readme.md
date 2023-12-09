@@ -11,3 +11,5 @@ app.listen(PORT,()=>{
     console.log("Server is Working")
 });
 ```````````````````````````````````````````
+add though git bash --
+$ echo "node_modules" > .gitignore

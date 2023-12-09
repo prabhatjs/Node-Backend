@@ -1,0 +1,13 @@
+MVC-
+model      -- chef is model (all business login here) 
+view       --restro menu (first user intraction)
+controller -- waiter (InterMeditate layer between view and model)
+
+model<----------->controller<----------------->View
+
+view           controller                 model
+------------------------------------------------------------------------------
+---------> (do some Task) ----------->  bussiness logic
+                                                database
+
+        <------------- do some task  <------------
