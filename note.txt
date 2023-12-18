@@ -63,3 +63,7 @@ how api goes though localhost:8080/api ,melega to apiROutes par jayega vhan se v
 
 /api/version1/info par data milega
 ------------------------------
+
+orm vs odm--
+
+object relational mapping/ 
