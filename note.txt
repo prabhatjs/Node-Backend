@@ -11,3 +11,55 @@ view           controller                 model
                                                 database
 
         <------------- do some task  <------------
+
+controller forward request to backend models
+it prepares response object
+
+-->: authantication is done on middleware layer,if user is authanticated then go forward in controller part
+
+routes folder :-registration of middleware and controller to routes
+
+servies folder :business logic it will dipend on repository layer ,repository folder do database intraction
+
+schema folder / model folder :- db structure
+
+util folder : comman share code 
+
+seed folder: seeders for testing ,sample data for testing purpose in development 
+
+migration folder : chnages in schema in database  
+-------------------------------------------------------------------------------
+npm i express for server 
+npm i dotenv 
+npm i http-status-code for status code with given right name enum mapping
+
+
+every folder have one index.js file because 
+let example - agr hamere pass 20 controller file hai to 20 file ko require krna padega jhan unka use hoga agr ham ek index.js file me hi sare controller ko handel kre to index .js file use kr sakte hen
+
+in routes folder version is important for api versioning
+
+nodemon -npx nodemon index.js
+
+package.json
+
+you can write own scripts for development purpose and testing purpose.
+
+scripts:{
+        "dev":"npx nodemon src/index.js"
+}
+
+npm run dev (this cmd use to run node project in development enviorment)
+
+routing----
+-----------------
+Routing refers to how an application endpoints(URIS) respond to client request,
+You define routing using method of the express app object that  correspond to HTTP method for example app.get() to handel GET request and app.post() to handle post request ,you can see full list app.METHOD ,
+you can use app.all() to handle app HTTP method and app.use() to specify middleware as the callback function 
+
+
+-------------------
+how api goes though localhost:8080/api ,melega to apiROutes par jayega vhan se version1 mielga fir uske baad info par jayega
+
+/api/version1/info par data milega
+------------------------------

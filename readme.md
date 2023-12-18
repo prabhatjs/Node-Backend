@@ -12,10 +12,16 @@ app.listen(PORT,()=>{
 });
 ```````````````````````````````````````````
 add though git bash --
+`````````````````````````````````````````````````
 $ echo "node_modules" > .gitignore
+`````````````````````````````````````````````````
 
 
 <h3>middleware</h3>
 <p>
-middleware are just function,that have to access request object(req), response object(rep) and the (next) function point to another middleware it call request-response cycle. 
+middleware are just function,that have to access request object(req), response object(rep) and the (next () ) function point to another middleware it call request-response cycle. 
 </p>
+
+```````````````````````````````````
+const middlewarearray=[mylogger1,mylogger2]
+```````````````````````````````````
