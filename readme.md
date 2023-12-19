@@ -31,7 +31,7 @@ inside `src` folder
 
 -`config` 
 
--`routes` we register a route and thee corresponding middleware and controllers to it.
+- `routes` we register a route and thee corresponding middleware and controllers to it.
 
 - `middlewares` they are   just going to intercept the incoming requests where we can write our validators ,authanticators etc.
 
@@ -42,4 +42,4 @@ bussiness layer to execute the bussiness logic . In controllers we just receive 
 
 - `services ` contains the bussiness logic and intracts with repositories for data from the database 
 
-`utils` contains helper mehtods
+- `utils` contains helper mehtods

@@ -5,9 +5,7 @@ const info=(req,res)=>{
             error:{},
             data:{}
     });
-
 }
-
 module.exports={
     info
 }

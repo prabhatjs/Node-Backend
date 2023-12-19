@@ -66,4 +66,41 @@ how api goes though localhost:8080/api ,melega to apiROutes par jayega vhan se v
 
 orm vs odm--
 
-object relational mapping/ 
+object relational mapping--
+
+sequelize orm-
+npm install sequelize
+
+orm is convert your sql query into object oriented code
+
+install driver for db
+
+npm install mysql2 (for my saql)
+
+sequelize cli (package) for mysql setup++ is easy to use
+ npm install sequelize-cli
+
+ npx sequelize init cmd  -that initializes project
+  go to src/config folder -- then npx sequelize init
+
+  Sequelize CLI [Node: 18.14.2, CLI: 6.6.2, ORM: 6.35.2]
+
+Created "config\config.json"
+Successfully created models folder at "E:\Backend\NodesTemplate\src\models".
+Successfully created migrations folder at "E:\Backend\NodesTemplate\src\migrations".
+Successfully created seeders folder at "E:\Backend\NodesTemplate\src\seeders".
+
+
+it automaticaly create config.json file and model folder if you does'nt have that
+
+(npx is package executer)
+
+npx sequelize init create config.json file
+
+it create  3 enviorment
+
+development- for development phase (development database)
+
+testing-development project in testing phase (test database)
+
+prodction - actual user intracting 
